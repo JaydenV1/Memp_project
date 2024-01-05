@@ -1,0 +1,276 @@
+[INFO]2024.01.04 17:33:55 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:33:55 : 接口状态码：200
+[INFO]2024.01.04 17:33:55 : 接口响应文本：{"responseTime":0,"webNotes":[{"noteId":"001","createTime":1702024339659,"star":0,"remindTime":0,"remindType":0,"infoVersion":62,"infoUpdateTime":1702204147567,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":74,"contentUpdateTime":1702138157247},{"noteId":"zing","createTime":1702113770470,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113770470,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113770470},{"noteId":"1123","createTime":1702113758431,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113758431,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113758431},{"noteId":"500123","createTime":1702113643614,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113643614,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113643614},{"noteId":"002","createTime":1702107530676,"star":0,"remindTime":0,"remindType":0,"infoVersion":6,"infoUpdateTime":1702204145861,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":3,"contentUpdateTime":1702110337661}]}
+[INFO]2024.01.04 17:33:55 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:33:54 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:33:56 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows//notes
+[INFO]2024.01.04 17:33:56 : 接口状态码：404
+[INFO]2024.01.04 17:33:56 : 接口响应文本：{"timestamp":"2024-01-04T09:33:56.375+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex/10/rows//notes"}
+[INFO]2024.01.04 17:33:56 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:33:56 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:33:57 : 请求地址：http://note-api.wps.cn/v3/notesvr/user//home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:33:57 : 接口状态码：404
+[INFO]2024.01.04 17:33:57 : 接口响应文本：{"timestamp":"2024-01-04T09:33:57.318+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user//home/startindex/10/rows/10/notes"}
+[INFO]2024.01.04 17:33:57 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:33:57 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:33:58 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/001/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:33:58 : 接口状态码：412
+[INFO]2024.01.04 17:33:58 : 接口响应文本：{"errorCode":-1011,"errorMsg":"user change!"}
+[INFO]2024.01.04 17:33:58 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:33:58 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:00 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/suer/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:34:00 : 接口状态码：500
+[INFO]2024.01.04 17:34:00 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:00 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:33:59 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:01 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex//rows/10/notes
+[INFO]2024.01.04 17:34:01 : 接口状态码：404
+[INFO]2024.01.04 17:34:01 : 接口响应文本：{"timestamp":"2024-01-04T09:34:01.123+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex//rows/10/notes"}
+[INFO]2024.01.04 17:34:01 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:01 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:02 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/hahaxi/rows/10/notes
+[INFO]2024.01.04 17:34:02 : 接口状态码：500
+[INFO]2024.01.04 17:34:02 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:02 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:02 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:03 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/123456789101231231233123/rows/10/notes
+[INFO]2024.01.04 17:34:03 : 接口状态码：500
+[INFO]2024.01.04 17:34:03 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:03 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:03 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:05 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/%5B1,2%5D/rows/10/notes
+[INFO]2024.01.04 17:34:05 : 接口状态码：500
+[INFO]2024.01.04 17:34:05 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:05 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:04 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:07 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/zing/notes
+[INFO]2024.01.04 17:34:07 : 接口状态码：500
+[INFO]2024.01.04 17:34:07 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:07 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:06 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:08 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:08 : 接口状态码：200
+[INFO]2024.01.04 17:34:08 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:08 : 接口响应文本：{"responseTime":33,"infoVersion":63,"infoUpdateTime":1704360847875}
+[INFO]2024.01.04 17:34:10 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:10 : 接口状态码：200
+[INFO]2024.01.04 17:34:10 : 接口请求文本：b'{"noteId": "002"}'
+[INFO]2024.01.04 17:34:10 : 接口响应文本：{"responseTime":38,"infoVersion":7,"infoUpdateTime":1704360849927}
+[INFO]2024.01.04 17:34:11 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:11 : 接口状态码：200
+[INFO]2024.01.04 17:34:11 : 接口请求文本：b'{"noteId": "003"}'
+[INFO]2024.01.04 17:34:11 : 接口响应文本：{"responseTime":39,"infoVersion":7,"infoUpdateTime":1704360850848}
+[INFO]2024.01.04 17:34:11 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:11 : 接口状态码：412
+[INFO]2024.01.04 17:34:11 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:11 : 接口响应文本：{"errorCode":-1011,"errorMsg":"X-user-key header Requested!"}
+[INFO]2024.01.04 17:34:13 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:13 : 接口状态码：412
+[INFO]2024.01.04 17:34:13 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:13 : 接口响应文本：{"errorCode":-1011,"errorMsg":"user change!"}
+[INFO]2024.01.04 17:34:15 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:15 : 接口状态码：500
+[INFO]2024.01.04 17:34:15 : 接口请求文本：b'{"noteId": [1, 2, 3, 4]}'
+[INFO]2024.01.04 17:34:15 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:17 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:17 : 接口状态码：500
+[INFO]2024.01.04 17:34:17 : 接口请求文本：b'{"noteId": ""}'
+[INFO]2024.01.04 17:34:17 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]2024.01.04 17:34:18 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:18 : 接口状态码：200
+[INFO]2024.01.04 17:34:18 : 接口请求文本：b'{"noteId": "001", "star": 0}'
+[INFO]2024.01.04 17:34:18 : 接口响应文本：{"responseTime":52,"infoVersion":64,"infoUpdateTime":1704360858167}
+[INFO]2024.01.04 17:34:20 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:20 : 接口状态码：200
+[INFO]2024.01.04 17:34:20 : 接口请求文本：b'{"noteId": "001", "star": 1}'
+[INFO]2024.01.04 17:34:20 : 接口响应文本：{"responseTime":47,"infoVersion":65,"infoUpdateTime":1704360860184}
+[INFO]2024.01.04 17:34:21 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:21 : 接口状态码：200
+[INFO]2024.01.04 17:34:21 : 接口请求文本：b'{"noteId": "001", "star": ""}'
+[INFO]2024.01.04 17:34:21 : 接口响应文本：{"responseTime":53,"infoVersion":66,"infoUpdateTime":1704360861096}
+[INFO]2024.01.04 17:34:23 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:23 : 接口状态码：500
+[INFO]2024.01.04 17:34:23 : 接口请求文本：b'{"noteId": "001", "star": "asd"}'
+[INFO]2024.01.04 17:34:23 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:23 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:23 : 接口状态码：500
+[INFO]2024.01.04 17:34:23 : 接口请求文本：b'{"noteId": "001", "star": true}'
+[INFO]2024.01.04 17:34:23 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:24 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:24 : 接口状态码：200
+[INFO]2024.01.04 17:34:24 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": 202312101212}'
+[INFO]2024.01.04 17:34:24 : 接口响应文本：{"responseTime":31,"infoVersion":67,"infoUpdateTime":1704360864667}
+[INFO]2024.01.04 17:34:25 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:25 : 接口状态码：500
+[INFO]2024.01.04 17:34:25 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": "haha"}'
+[INFO]2024.01.04 17:34:25 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:26 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:26 : 接口状态码：200
+[INFO]2024.01.04 17:34:26 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": ""}'
+[INFO]2024.01.04 17:34:26 : 接口响应文本：{"responseTime":41,"infoVersion":68,"infoUpdateTime":1704360866640}
+[INFO]2024.01.04 17:34:27 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:27 : 接口状态码：200
+[INFO]2024.01.04 17:34:27 : 接口请求文本：b'{"noteId": "012", "title": "just title", "summary": "hhh", "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:27 : 接口响应文本：{"responseTime":24,"contentVersion":8,"contentUpdateTime":1704360867639}
+[INFO]2024.01.04 17:34:28 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:28 : 接口状态码：500
+[INFO]2024.01.04 17:34:28 : 接口请求文本：b'{"noteId": "", "title": "just title", "summary": "hhh", "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:28 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]2024.01.04 17:34:29 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:29 : 接口状态码：412
+[INFO]2024.01.04 17:34:29 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": "hhh", "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:29 : 接口响应文本：{"errorCode":-1003,"errorMsg":"content version not equal!"}
+[INFO]2024.01.04 17:34:31 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:31 : 接口状态码：500
+[INFO]2024.01.04 17:34:31 : 接口请求文本：b'{"noteId": "012", "title": [1, 2, 3], "summary": "hhh", "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:31 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:32 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:32 : 接口状态码：412
+[INFO]2024.01.04 17:34:32 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": "hhh", "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:32 : 接口响应文本：{"errorCode":-1003,"errorMsg":"content version not equal!"}
+[INFO]2024.01.04 17:34:33 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:33 : 接口状态码：500
+[INFO]2024.01.04 17:34:33 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": [1, 2, 3], "body": "content", "localContentVersion": 7, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:33 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:34 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:34 : 接口状态码：500
+[INFO]2024.01.04 17:34:34 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": [1, 2, 3], "body": "content", "localContentVersion": "string", "BodyType": "0"}'
+[INFO]2024.01.04 17:34:34 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:35 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:35 : 接口状态码：500
+[INFO]2024.01.04 17:34:35 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": [1, 2, 3], "body": "content", "localContentVersion": null, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:35 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:36 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2024.01.04 17:34:36 : 接口状态码：500
+[INFO]2024.01.04 17:34:36 : 接口请求文本：b'{"noteId": "012", "title": "", "summary": [1, 2, 3], "body": "content", "localContentVersion": {"key": "value"}, "BodyType": "0"}'
+[INFO]2024.01.04 17:34:36 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:37 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:34:37 : 接口状态码：200
+[INFO]2024.01.04 17:34:37 : 接口响应文本：{"responseTime":0,"webNotes":[{"noteId":"001","createTime":1702024339659,"star":0,"remindTime":0,"remindType":0,"infoVersion":68,"infoUpdateTime":1704360866640,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":74,"contentUpdateTime":1702138157247},{"noteId":"zing","createTime":1702113770470,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113770470,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113770470},{"noteId":"1123","createTime":1702113758431,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113758431,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113758431},{"noteId":"500123","createTime":1702113643614,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113643614,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113643614},{"noteId":"002","createTime":1702107530676,"star":0,"remindTime":0,"remindType":0,"infoVersion":7,"infoUpdateTime":1704360849927,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":3,"contentUpdateTime":1702110337661}]}
+[INFO]2024.01.04 17:34:37 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:36 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:39 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows//notes
+[INFO]2024.01.04 17:34:39 : 接口状态码：404
+[INFO]2024.01.04 17:34:39 : 接口响应文本：{"timestamp":"2024-01-04T09:34:39.080+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex/10/rows//notes"}
+[INFO]2024.01.04 17:34:39 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:39 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:40 : 请求地址：http://note-api.wps.cn/v3/notesvr/user//home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:34:40 : 接口状态码：404
+[INFO]2024.01.04 17:34:40 : 接口响应文本：{"timestamp":"2024-01-04T09:34:39.988+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user//home/startindex/10/rows/10/notes"}
+[INFO]2024.01.04 17:34:40 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:39 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:41 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/001/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:34:41 : 接口状态码：412
+[INFO]2024.01.04 17:34:41 : 接口响应文本：{"errorCode":-1011,"errorMsg":"user change!"}
+[INFO]2024.01.04 17:34:41 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:41 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:42 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/suer/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:34:42 : 接口状态码：500
+[INFO]2024.01.04 17:34:42 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:42 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:41 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:46 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex//rows/10/notes
+[INFO]2024.01.04 17:34:46 : 接口状态码：404
+[INFO]2024.01.04 17:34:46 : 接口响应文本：{"timestamp":"2024-01-04T09:34:46.413+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex//rows/10/notes"}
+[INFO]2024.01.04 17:34:46 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:46 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:47 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/hahaxi/rows/10/notes
+[INFO]2024.01.04 17:34:47 : 接口状态码：500
+[INFO]2024.01.04 17:34:47 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:47 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:47 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:48 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/123456789101231231233123/rows/10/notes
+[INFO]2024.01.04 17:34:48 : 接口状态码：500
+[INFO]2024.01.04 17:34:48 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:48 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:47 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:50 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/%5B1,2%5D/rows/10/notes
+[INFO]2024.01.04 17:34:50 : 接口状态码：500
+[INFO]2024.01.04 17:34:50 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:50 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:49 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:51 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/zing/notes
+[INFO]2024.01.04 17:34:51 : 接口状态码：500
+[INFO]2024.01.04 17:34:51 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:34:51 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:34:50 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:34:52 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:52 : 接口状态码：200
+[INFO]2024.01.04 17:34:52 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:52 : 接口响应文本：{"responseTime":50,"infoVersion":69,"infoUpdateTime":1704360892063}
+[INFO]2024.01.04 17:34:53 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:53 : 接口状态码：200
+[INFO]2024.01.04 17:34:53 : 接口请求文本：b'{"noteId": "002"}'
+[INFO]2024.01.04 17:34:53 : 接口响应文本：{"responseTime":29,"infoVersion":8,"infoUpdateTime":1704360893017}
+[INFO]2024.01.04 17:34:54 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:54 : 接口状态码：200
+[INFO]2024.01.04 17:34:54 : 接口请求文本：b'{"noteId": "003"}'
+[INFO]2024.01.04 17:34:54 : 接口响应文本：{"responseTime":31,"infoVersion":8,"infoUpdateTime":1704360893994}
+[INFO]2024.01.04 17:34:56 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:56 : 接口状态码：412
+[INFO]2024.01.04 17:34:56 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:56 : 接口响应文本：{"errorCode":-1011,"errorMsg":"X-user-key header Requested!"}
+[INFO]2024.01.04 17:34:57 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:57 : 接口状态码：412
+[INFO]2024.01.04 17:34:57 : 接口请求文本：b'{"noteId": "001"}'
+[INFO]2024.01.04 17:34:57 : 接口响应文本：{"errorCode":-1011,"errorMsg":"user change!"}
+[INFO]2024.01.04 17:34:58 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:58 : 接口状态码：500
+[INFO]2024.01.04 17:34:58 : 接口请求文本：b'{"noteId": [1, 2, 3, 4]}'
+[INFO]2024.01.04 17:34:58 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:34:58 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:34:58 : 接口状态码：500
+[INFO]2024.01.04 17:34:58 : 接口请求文本：b'{"noteId": ""}'
+[INFO]2024.01.04 17:34:58 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]2024.01.04 17:35:00 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:00 : 接口状态码：200
+[INFO]2024.01.04 17:35:00 : 接口请求文本：b'{"noteId": "001", "star": 0}'
+[INFO]2024.01.04 17:35:00 : 接口响应文本：{"responseTime":22,"infoVersion":70,"infoUpdateTime":1704360900466}
+[INFO]2024.01.04 17:35:01 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:01 : 接口状态码：200
+[INFO]2024.01.04 17:35:01 : 接口请求文本：b'{"noteId": "001", "star": 1}'
+[INFO]2024.01.04 17:35:01 : 接口响应文本：{"responseTime":41,"infoVersion":71,"infoUpdateTime":1704360901486}
+[INFO]2024.01.04 17:35:02 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:02 : 接口状态码：200
+[INFO]2024.01.04 17:35:02 : 接口请求文本：b'{"noteId": "001", "star": ""}'
+[INFO]2024.01.04 17:35:02 : 接口响应文本：{"responseTime":23,"infoVersion":72,"infoUpdateTime":1704360902472}
+[INFO]2024.01.04 17:35:03 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:03 : 接口状态码：500
+[INFO]2024.01.04 17:35:03 : 接口请求文本：b'{"noteId": "001", "star": "asd"}'
+[INFO]2024.01.04 17:35:03 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:35:04 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:04 : 接口状态码：500
+[INFO]2024.01.04 17:35:04 : 接口请求文本：b'{"noteId": "001", "star": true}'
+[INFO]2024.01.04 17:35:04 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:35:06 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:06 : 接口状态码：200
+[INFO]2024.01.04 17:35:06 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": 202312101212}'
+[INFO]2024.01.04 17:35:06 : 接口响应文本：{"responseTime":34,"infoVersion":73,"infoUpdateTime":1704360906080}
+[INFO]2024.01.04 17:35:07 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:07 : 接口状态码：500
+[INFO]2024.01.04 17:35:07 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": "haha"}'
+[INFO]2024.01.04 17:35:07 : 接口响应文本：{"errorCode":-7,"errorMsg":""}
+[INFO]2024.01.04 17:35:08 : 请求地址：http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]2024.01.04 17:35:08 : 接口状态码：200
+[INFO]2024.01.04 17:35:08 : 接口请求文本：b'{"noteId": "001", "star": 0, "remindTime": ""}'
+[INFO]2024.01.04 17:35:08 : 接口响应文本：{"responseTime":50,"infoVersion":74,"infoUpdateTime":1704360908094}
+[INFO]2024.01.04 17:35:09 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:35:09 : 接口状态码：200
+[INFO]2024.01.04 17:35:09 : 接口响应文本：{"responseTime":0,"webNotes":[{"noteId":"001","createTime":1702024339659,"star":0,"remindTime":0,"remindType":0,"infoVersion":74,"infoUpdateTime":1704360908094,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":74,"contentUpdateTime":1702138157247},{"noteId":"zing","createTime":1702113770470,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113770470,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113770470},{"noteId":"1123","createTime":1702113758431,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113758431,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113758431},{"noteId":"500123","createTime":1702113643614,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1702113643614,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":1,"contentUpdateTime":1702113643614},{"noteId":"002","createTime":1702107530676,"star":0,"remindTime":0,"remindType":0,"infoVersion":8,"infoUpdateTime":1704360893017,"groupId":null,"title":"just title","summary":"hhh","thumbnail":null,"contentVersion":3,"contentUpdateTime":1702110337661}]}
+[INFO]2024.01.04 17:35:09 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:08 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:10 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows//notes
+[INFO]2024.01.04 17:35:10 : 接口状态码：404
+[INFO]2024.01.04 17:35:10 : 接口响应文本：{"timestamp":"2024-01-04T09:35:10.037+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex/10/rows//notes"}
+[INFO]2024.01.04 17:35:10 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:09 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:11 : 请求地址：http://note-api.wps.cn/v3/notesvr/user//home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:35:11 : 接口状态码：404
+[INFO]2024.01.04 17:35:11 : 接口响应文本：{"timestamp":"2024-01-04T09:35:11.039+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user//home/startindex/10/rows/10/notes"}
+[INFO]2024.01.04 17:35:11 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:11 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:12 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/001/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:35:12 : 接口状态码：412
+[INFO]2024.01.04 17:35:12 : 接口响应文本：{"errorCode":-1011,"errorMsg":"user change!"}
+[INFO]2024.01.04 17:35:12 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:12 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:13 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/suer/home/startindex/10/rows/10/notes
+[INFO]2024.01.04 17:35:13 : 接口状态码：500
+[INFO]2024.01.04 17:35:13 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:35:13 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:12 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:14 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex//rows/10/notes
+[INFO]2024.01.04 17:35:14 : 接口状态码：404
+[INFO]2024.01.04 17:35:14 : 接口响应文本：{"timestamp":"2024-01-04T09:35:14.095+0000","status":404,"error":"Not Found","message":"No message available","path":"/v3/notesvr/user/567588558/home/startindex//rows/10/notes"}
+[INFO]2024.01.04 17:35:14 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:13 GMT', 'Vary': 'Accept-Encoding', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:15 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/hahaxi/rows/10/notes
+[INFO]2024.01.04 17:35:15 : 接口状态码：500
+[INFO]2024.01.04 17:35:15 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:35:15 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:14 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:16 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/123456789101231231233123/rows/10/notes
+[INFO]2024.01.04 17:35:16 : 接口状态码：500
+[INFO]2024.01.04 17:35:16 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:35:16 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:15 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:17 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/%5B1,2%5D/rows/10/notes
+[INFO]2024.01.04 17:35:17 : 接口状态码：500
+[INFO]2024.01.04 17:35:17 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:35:17 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:16 GMT', 'X-Klb': '2'}
+[INFO]2024.01.04 17:35:18 : 请求地址：http://note-api.wps.cn/v3/notesvr/user/567588558/home/startindex/10/rows/zing/notes
+[INFO]2024.01.04 17:35:18 : 接口状态码：500
+[INFO]2024.01.04 17:35:18 : 接口响应文本：{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]2024.01.04 17:35:18 : {'Connection': 'close', 'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Thu, 04 Jan 2024 09:35:17 GMT', 'X-Klb': '2'}

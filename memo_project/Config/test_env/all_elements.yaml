@@ -1,0 +1,19 @@
+DOUBANHOST: https://www.douban.com/
+username: 13249735538
+psw: love89036863
+
+LoginPage: #登录页面
+  username_input: [ 'css selector','#username' ] #登录页邮箱账户输入框
+  psw_input: [ 'id','password' ] #密码输入框
+  login_btn: ['css selector','.btn.btn-account.btn-active'] #登录,即下一步
+  psw_login_button: ['css selector','.account-tab-account']
+  account_name : ['css selector','.nav-user-account span:first-child']
+  iframe: ['css selector','.login iframe']
+  iframe_confirm: ['css selector','#tcaptcha_iframe_dy']
+
+MainPage: #主页
+  movies_pages: [ 'css selector','#db-global-nav [href="https://movie.douban.com"]' ]
+
+Moviespage: #电影页
+  search_bar : ['css selector','#inp-query']
+  movie_title : ['css selector','.nav-logo a']
